@@ -1,3 +1,49 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: "Kaushan Script", cursive;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.btn-min {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 2rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 1px solid #333;
+}
+.btn-min:hover {
+  background: var(--mainBlue);
+}
+.btn-plus {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 2rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 1px solid #333;
+}
+.btn-plus:hover {
+  background: var(--mainBlue);
+}
 .App {
   text-align: center;
 }
