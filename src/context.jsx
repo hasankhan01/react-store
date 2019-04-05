@@ -12,7 +12,7 @@ class ProductProvider extends Component {
     modalProduct: detailProduct,
     cartSubTotal: 0,
     cartTax: 0,
-    cartTotals: 0
+    cartTotal: 0
   };
   // Recycle function
   componentDidMount() {
@@ -160,7 +160,7 @@ class ProductProvider extends Component {
       return {
         cartSubTotal: subTotal,
         cartTax: tax,
-        cartTotals: total
+        cartTotal: total
       };
     });
   };

@@ -4,7 +4,7 @@ export default class CartColumns extends Component {
   state = {};
   render() {
     return (
-      <div className="container-fluid text-center d-none d-lg-block">
+      <div className="container text-center d-none d-lg-block">
         <div className="row">
           <div className="col-10 max-auto col-lg-2">
             <p className="text-uppercase">Product</p>

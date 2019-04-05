@@ -41,7 +41,7 @@ export default class Product extends Component {
             )}
           </ProductConsumer>
           {/* card footer */}
-          <div className="card-footer d-flex jutify-content-justify">
+          <div className="card-footer d-flex justify-content-between">
             <p className="align-self-center mb-0">{title}</p>
             <h5 className="text-blue font-italic mb-0">
               <span className="mr-0">$ </span>
@@ -68,6 +68,7 @@ const ProductWrapper = styled.div`
   .card {
     background-color: transparent;
     transition: all is linear;
+    border: 0;
   }
   card-footer {
     background-color: transparent;
@@ -76,7 +77,7 @@ const ProductWrapper = styled.div`
   }
   &:hover {
     .card {
-      border: 0.04rem solid rgba(0, 0, 0, 0.2);
+      border: 0;
       bocx-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2);
     }
     .card-footer {

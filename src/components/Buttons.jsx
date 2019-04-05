@@ -15,7 +15,6 @@ export const ButtonContainer = styled.button`
   transation: all 0.5s ease-in-out;
   &:hover {
     color: ${props => (props.cart ? "var(--mainDark)" : "var(--lightBlue)")};
-    color: var(--mainBlue);
   }
   &:focus {
     outline: none;

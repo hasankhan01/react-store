@@ -13,30 +13,29 @@ export default function CartItem({ item, value }) {
           alt="product"
         />
       </div>
-      <div className="col-10 mx-auto col-lg-2">
+      <div className="col-10 mx-auto col-lg-2 pt-3">
         <span className="d-lg-none">Product : </span>
         {title}
       </div>
-      <div className="col-10 mx-auto col-lg-2">
+      <div className="col-10 mx-auto col-lg-2 pt-3">
         <span className="d-lg-none">Price : </span>${price}
       </div>
-      <div className="col-10 mx-auto col-lg-2 my-lg-0">
-        <div className="d-flex justify-content-center" />
-        <span className="btn btn-min mx-1" onClick={() => decrement(id)}>
-          -
+      <div className="col-10 mx-auto col-lg-2 my-lg-0 pt-3">
+        <span className="btn-min mx-3" onClick={() => decrement(id)}>
+          <i className="fas fa-minus" />
         </span>
-        <span>{count}</span>
-        <span className="btn btn-plus mx-1" onClick={() => increment(id)}>
-          +
+        <span className="pt-3">{count}</span>
+        <span className="btn-plus mx-3  pt-3" onClick={() => increment(id)}>
+          <i className="fas fa-plus" />
         </span>
       </div>
-      <div className="col-10 mx-auto col-lg-2">
+      <div className="col-10 mx-auto col-lg-2 pt-3">
         <div className="cart-icon" onClick={() => removeItem(id)}>
           <i className="fas fa-trash" />
         </div>
       </div>
-      <div className="col-10 mx-auto col-lg-2">
-        <strong>total item : ${total}</strong>
+      <div className="col-10 mx-auto col-lg-2 pt-3">
+        <strong> ${total}</strong>
       </div>
     </div>
   );

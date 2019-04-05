@@ -6,7 +6,7 @@ export default class EmptyCart extends Component {
     return (
       <div className="container max-auto mt-5">
         <div className="row">
-          <div className="col-10 max-auto text-center text-title">
+          <div className="col-12 max-auto text-center text-title">
             <h1>Your cart is currently empty</h1>
           </div>
         </div>

@@ -8,6 +8,7 @@ import ProductDetails from "./components/ProdcutDetails";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import FooterLinks from "./components/FooterLinks";
 class App extends Component {
   render() {
     return (
@@ -19,6 +20,7 @@ class App extends Component {
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
         </Switch>
+        <FooterLinks />
         <Modal />
       </React.Fragment>
     );

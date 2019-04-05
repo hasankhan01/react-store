@@ -99,6 +99,30 @@ export const storeProducts = [
     inCart: false,
     count: 0,
     total: 0
+  },
+  {
+    id: 9,
+    title: "Ipad Amazone",
+    img: "img/product-2.png",
+    price: 250,
+    company: "apple",
+    info:
+      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
+    id: 10,
+    title: "Fire 7 Tablet with Alexa",
+    img: "img/product-9.png",
+    price: 49.99,
+    company: "amazone",
+    info:
+      "This item does not ship to Pakistan. Please check other sellers who may ship internationally. Learn more Ships from and sold by Amazon Digital Services LLC. DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    inCart: false,
+    count: 0,
+    total: 0
   }
 ];
 
