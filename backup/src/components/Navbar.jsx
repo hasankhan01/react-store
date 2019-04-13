@@ -3,12 +3,9 @@ import { Link } from "react-router-dom";
 //import logo from "../logo.svg";
 import Styled from "styled-components";
 import { ButtonContainer } from "./Buttons";
-//import EmptyCart from "./Cart/EmptyCart";
-import { ProductConsumer } from "../context";
-//import CartList from "./Cart/CartList";
-//import CartTotals from "./Cart/CartTotals";
 
 export default class Navbar extends Component {
+  state = {};
   render() {
     return (
       <NavWrapper className="navbar navbar-expand-lg bg-primary">
@@ -32,18 +29,9 @@ export default class Navbar extends Component {
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>
             <span className="cart-btn">
-              <i className="fas fa-cart-arrow-down" />$
-              <ProductConsumer>
-                {value => {
-                  const { cart } = value;
-                  const { cartSubTotal } = value;
-                  if (cart.length > 0) {
-                    return <React.Fragment>{cartSubTotal}</React.Fragment>;
-                  }
-                }}
-              </ProductConsumer>
+              <i className="fas fa-cart-arrow-down" />
+              Cart
             </span>
-            {/* <span styele={{ display: none }}>{cartSubTotal}</span> */}
           </ButtonContainer>
         </Link>
       </NavWrapper>

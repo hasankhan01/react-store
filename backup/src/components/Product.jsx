@@ -30,7 +30,7 @@ export default class Product extends Component {
                   }}
                 >
                   {inCart ? (
-                    <p className="text-capitalize" disabled>
+                    <p className="text-capitalize mb-3" disabled>
                       In Cart
                     </p>
                   ) : (
@@ -107,7 +107,7 @@ const ProductWrapper = styled.div`
     color: var(--mainWhite);
     font-size: 1.4rem;
     border-radius: 0.5rem 0 0 0;
-    transform: translate(0, 0);
+    transform: translate(100%, 100%);
     transition: all 0.5s linear;
   }
   .img-container:hover .cart-btn {
